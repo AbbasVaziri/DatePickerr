@@ -2,113 +2,84 @@ import React from 'react';
 import CustomPicker from './CustomPicker';
 
 export default {
-    title: 'Components/CustomPicker',
-    component: CustomPicker,
-    argTypes: {
+    title: 'Components/CustomPicker', component: CustomPicker, argTypes: {
         calendarType: {
             control: {
-                type: 'select',
-                options: ['jalali', 'gregorian'],
+                type: 'select', options: ['jalali', 'gregorian'],
             },
-        },
-        mode: {
+        }, mode: {
             control: {
-                type: 'select',
-                options: ['range', 'single', 'multiple'],
+                type: 'select', options: ['range', 'single', 'multiple'],
             },
-        },
-        disableWeekends: {
+        }, disableWeekends: {
             control: {
                 type: 'boolean',
             },
-        },
-        holidayDates: {
+        }, holidayDates: {
             control: {
                 type: 'array',
             },
-        },
-        weekdaysLong: {
+        }, weekdaysLong: {
             control: {
                 type: 'array',
             },
-        },
-        numMonth: {
+        }, numMonth: {
             control: {
-                type: 'number',
-                min: 1,
-                max: 12,
+                type: 'number', min: 1, max: 12,
             },
-        },
-        minDate: {
+        }, minDate: {
             control: {
                 type: 'date',
             },
-        },
-        maxDate: {
+        }, maxDate: {
             control: {
                 type: 'date',
             },
-        },
-        showNavigation: {
+        }, showNavigation: {
             control: {
                 type: 'boolean',
             },
-        },
-        showMonthCation: {
+        }, showMonthCation: {
             control: {
                 type: 'boolean',
             },
-        },
-        holidayColor: {
+        }, holidayColor: {
             control: {
                 type: 'color',
             },
-        },
-        rangeMiddleColor: {
+        }, rangeMiddleColor: {
             control: {
                 type: 'color',
             },
-        },
-        disabledDayColor: {
+        }, disabledDayColor: {
             control: {
                 type: 'color',
             },
-        },
-        todayColor: {
+        }, todayColor: {
             control: {
                 type: 'color',
             },
-        },
-        selectedColor: {
+        }, selectedColor: {
             control: {
                 type: 'color',
             },
-        },
-        outsideDays: {
+        }, outsideDays: {
             control: {
                 type: 'boolean',
             },
-        },
-        minMaxDate: {
+        }, minMaxDate: {
             control: {
                 type: 'boolean',
             },
-        },
-        classNames: {
+        }, classNames: {
             control: 'object',
-        },
-        DayWeekStartGre: {
+        }, DayWeekStartGre: {
             control: {
-                type: 'number',
-                min: 1,
-                max: 6,
+                type: 'number', min: 1, max: 6,
             },
-        },
-        DayWeekStartPer: {
+        }, DayWeekStartPer: {
             control: {
-                type: 'number',
-                min: 1,
-                max: 6,
+                type: 'number', min: 1, max: 6,
             },
         },
     },
@@ -130,7 +101,27 @@ Primary.args = {
     showMonthCation: true,
     minDate: new Date(2024, 5, 26),
     maxDate: new Date(2024, 0, 31),
-    holidayDates: ['1403/05/05', '1403/04/10', '1403/04/16', '1403/04/26'],
+    holidayDates: ["1403/01/01",  // Nowruz (Persian New Year)
+        "1404/01/01",  // Nowruz (Persian New Year)
+        "1404/01/02",  // Nowruz Holiday
+        "1404/01/03",  // Nowruz Holiday
+        "1404/01/04",  // Nowruz Holiday
+        "1404/01/12",  // Islamic Republic Day
+        "1404/01/13",  // Nature Day
+        "1404/01/22",  // Eid al-Fitr
+        "1404/01/23",  // Eid al-Fitr Holiday
+        "1404/03/14",  // Death of Imam Khomeini
+        "1404/03/15",  // 15th of Khordad Uprising
+        "1404/04/08",  // Eid al-Adha
+        "1404/04/16",  // Eid al-Ghadir
+        "1404/06/23",  // Tasua
+        "1404/06/24",  // Ashura
+        "1404/08/03",  // Prophet Muhammad's Birthday
+        "1404/10/22",  // Martyrdom of Fatima
+        '1403/05/07',
+        '1403/04/10',
+        '1403/04/19',
+        '1403/04/26'],
     weekdaysLong: ['شنبه', 'یکشنبه', 'دوشنبه', 'سه شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه'],
     holidayColor: '#e5e880',
     rangeMiddleColor: '#006666',
