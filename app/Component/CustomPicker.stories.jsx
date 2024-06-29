@@ -82,6 +82,11 @@ export default {
                 type: 'number', min: 1, max: 6,
             },
         },
+        highlightToday:{
+            control:{
+                type: 'boolean',
+            }
+        }
     },
 };
 
@@ -128,4 +133,5 @@ Primary.args = {
     disabledDayColor: '#f0f0f0',
     todayColor: '#006666',
     selectedColor: '#006666',
+    highlightToday:true,
 };

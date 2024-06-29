@@ -40,7 +40,8 @@ const CustomPicker = ({
                           outsideDays = true,
                           minMaxDate = true,
                           DayWeekStartGre = 6,
-                          DayWeekStartPer = 6
+                          DayWeekStartPer = 6,
+                          highlightToday= true,
                       }) => {
     const [selectedDate, setSelectedDate] = useState('');
     const [footerText, setFooterText] = useState("Please pick a date");
@@ -100,7 +101,7 @@ const CustomPicker = ({
         classNames: {
             calendar: `${defaultClassNames.calendar} shadow-lg p-5 relative`,
             chevron: `${defaultClassNames.chevron} fill-amber-500`,
-            today: `today`,
+            today: highlightToday ? `today` : "",
             month_caption: showMonthCation ? `text-xl flex justify-center mb-[15px]` : 'hidden',
             nav: `absolute w-full flex justify-between ${calendarType === "jalali" ? 'flex-row-reverse' : ''}`,
             button_next: showNavigation ? `nav-button nav-button-next` : 'hidden',
@@ -180,7 +181,8 @@ CustomPicker.propTypes = {
     outsideDays: PropTypes.bool,
     minMaxDate: PropTypes.bool,
     DayWeekStartGre: PropTypes.number,
-    DayWeekStartPer: PropTypes.number
+    DayWeekStartPer: PropTypes.number,
+    highlightToday: PropTypes.bool
 };
 
 export default CustomPicker;
