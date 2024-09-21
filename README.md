@@ -52,7 +52,7 @@ Ensure that you have the following installed on your machine:
 
    ```bash
      git clone https://github.com/AbbasVaziri/DatePickerr.git
-
-after you clone it is better to see the result on storybook so you should run this:
+2. **Run storybook**:
+   after you clone it is better to see the result on storybook so you should run this.
   ```bash
      npm run storybook
