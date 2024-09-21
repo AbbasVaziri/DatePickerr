@@ -30,10 +30,10 @@ This is a custom **DatePicker** component built with **Next.js** and styled usin
 
 ## Tech Stack
 
-- **Next.js**: For server-side rendering and app structure.
-- **Tailwind CSS**: For responsive and flexible styling.
-- **Storybook**: For isolated component development and testing.
-- **Jalali Moment**: For converting dates to the Jalali calendar.
+- **Next.js**
+- **Tailwind CSS**
+- **Storybook**
+- **Jalali Moment**
 
 
 ## Installation Guide
