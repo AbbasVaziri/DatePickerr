@@ -57,5 +57,5 @@ Ensure that you have the following installed on your machine:
   ```bash
      npm run storybook
 ```
-![image](https://github.com/user-attachments/assets/1b2fe027-31fe-426b-a3ea-26c494cab5a3)
+![image](https://github.com/user-attachments/assets/f7ae75a8-cab0-4d78-8252-c9d81a690e9c)
 
