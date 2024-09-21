@@ -56,6 +56,6 @@ Ensure that you have the following installed on your machine:
    after you clone it is better to see the result on storybook so you should run this.
   ```bash
      npm run storybook
-
+```
 ![image](https://github.com/user-attachments/assets/1b2fe027-31fe-426b-a3ea-26c494cab5a3)
 
