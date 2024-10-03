@@ -63,7 +63,7 @@ Ensure that you have the following installed on your machine:
 
 ## Preview
 
-![image](https://github.com/user-attachments/assets/b81342a5-54ab-4d27-8d71-be2d96bec048)
-![image](https://github.com/user-attachments/assets/2d326307-64d5-4748-ac84-3f83f62c313f)
+![image](https://github.com/user-attachments/assets/15d488c6-261a-459c-a6d9-54fc839db2ce)
+![image](https://github.com/user-attachments/assets/c2b5965a-3829-45f9-9ef0-a33c0926b844)
 
 
